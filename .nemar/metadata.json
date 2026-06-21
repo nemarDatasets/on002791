@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "DataSet1",
+  "description": "This dataset is a mirror of OpenNeuro ds002791, containing EEG recordings and associated metadata. The dataset includes raw EEG data in standard formats (.eeg, .vhdr, .vmrk) along with BIDS-compliant documentation and participant information in TSV format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,40 +13,6 @@
     "Fabrice Wendling": {},
     "Mahmoud Hassan": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds002791.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on002791",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002791",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "249.4 MB (80 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".gitattributes",
-    ".json",
-    ".md",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "This dataset is a mirror of OpenNeuro ds002791, containing EEG recordings and associated metadata. The dataset includes raw EEG data in standard formats (.eeg, .vhdr, .vmrk) along with BIDS-compliant documentation and participant information in TSV format.",
   "keywords": [
     {
       "term": "EEG"
@@ -60,5 +27,39 @@
       "term": "brain activity"
     }
   ],
-  "source_hash": "3453fc6b1cd5260b50af1a1b2ad157659d9b7761df3fbd6dd95b508cefae073d"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on002791",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002791",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002791.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "50.6 GB (277 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "6641a718ed143ef9be93b4930d14f197bc90089d49155f8b7ae4686279e676a6"
 }
