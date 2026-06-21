@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on002791",
-  "source": "openneuro",
-  "source_id": "ds002791",
+  "pipeline_stage": "enriched",
   "title": "DataSet1",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     " Ahmad Mheich": {},
     "Olivier Dufor": {},
@@ -12,21 +12,53 @@
     "Fabrice Wendling": {},
     "Mahmoud Hassan": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds002791.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on002791",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002791",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "2.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "249.4 MB (80 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset is a mirror of OpenNeuro ds002791, containing EEG recordings and associated metadata. The dataset includes raw EEG data in standard formats (.eeg, .vhdr, .vmrk) along with BIDS-compliant documentation and participant information in TSV format.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "brain activity"
+    }
+  ],
+  "source_hash": "3453fc6b1cd5260b50af1a1b2ad157659d9b7761df3fbd6dd95b508cefae073d"
 }
