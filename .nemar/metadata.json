@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "DataSet1",
-  "description": "This dataset is a mirror of OpenNeuro ds002791, containing EEG recordings and associated metadata. The dataset includes raw EEG data in standard formats (.eeg, .vhdr, .vmrk) along with BIDS-compliant documentation and participant information in TSV format.",
+  "description": "DataSet1 is an EEG dataset originally deposited on OpenNeuro (ds002791) and mirrored on NEMAR. It was contributed by Mheich, Dufor, Yassine, Kabbara, Wendling and Hassan. The available documentation gives no further detail on the experimental paradigm or participants.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,13 +18,15 @@
       "term": "EEG"
     },
     {
-      "term": "electroencephalography"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "neuroimaging"
+      "term": "OpenNeuro"
     },
     {
-      "term": "brain activity"
+      "term": "NEMAR"
     }
   ],
   "related_identifiers": [
@@ -34,14 +36,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002791",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds002791.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on002791",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -49,7 +51,7 @@
     "eeg"
   ],
   "sizes": [
-    "50.6 GB (277 files)"
+    "47.09 GB (277 files)"
   ],
   "formats": [
     ".eeg",
